@@ -120,7 +120,7 @@ def submit_values():
                     total_cost_now = total_cost_now + total
                     total_cost_month = total_cost_month + forecast
 
-    table.insert('', 'end', values=("", "", "", "", "", "Total", round(total_cost_now,2), round(total_cost_month,2)))
+    table.insert('', 'end', values=("", "", "", "", "", "Total", str(round(total_cost_now,2)) +" " + currency, str(round(total_cost_month,2))+" " + currency))
     
 def show_input_window():
     input_window.deiconify()
