@@ -1,5 +1,5 @@
 # ionos_cloud_billing_ui
-Simple python frontend for the INOS cloud billing API
+Simple python frontend for the IONOS cloud billing API
 
 The script requires the contract owner login information and contract number as well as a period (month) to aggregate all the relevant billing data.
 Data is aggregated by meterId, unused assets and products with no price are excluded.
